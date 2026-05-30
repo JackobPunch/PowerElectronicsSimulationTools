@@ -39,14 +39,6 @@ High-frequency switching power supply with full-bridge inverter and HF transform
 ![LTSpice model](https://github.com/JackobPunch/PowerElectronicsSimulationTools/blob/main/LTSPice/FullbridgePush-PullConverter/model.png)
 ![Waveforms](https://github.com/JackobPunch/PowerElectronicsSimulationTools/blob/main/LTSPice/FullbridgePush-PullConverter/Przebiegi.jpg)
 
-## Tools
-
-| Project | Tool |
-|---------|------|
-| Three-Phase Thyristor Bridge | MATLAB Simulink |
-| Single-Phase Inverters | MATLAB Simulink |
-| Fullbridge Push-Pull Converter | LTSpice |
-
 ## Authors
 
 Jakub Cios — Electrical Engineering, AGH University of Science and Technology, Kraków
