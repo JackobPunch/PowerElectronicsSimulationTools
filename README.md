@@ -4,14 +4,14 @@ Several projects based on models made in Matlab Simulink and LTSPice software fo
 ## Example images
 - Simulink model of single-phase inverter with its characteristic waveforms
 
-![SimulinkSinglePhaseInverter](https://github.com/JackobPunch/PowerElectronics/blob/main/Simulink/OnePhaseInverters/model3.png)
+![SimulinkSinglePhaseInverter](https://github.com/JackobPunch/PowerElectronicsSimulationTools/blob/main/Simulink/OnePhaseInverters/model3.png)
 
-![SimulinkSinglePhaseInverterWaveforms1](https://github.com/JackobPunch/PowerElectronics/blob/main/Simulink/OnePhaseInverters/PrzebiegiModel3.jpg)
+![SimulinkSinglePhaseInverterWaveforms1](https://github.com/JackobPunch/PowerElectronicsSimulationTools/blob/main/Simulink/OnePhaseInverters/PrzebiegiModel3.jpg)
 
-![SimulinkSinglePhaseInverterWaveforms2](https://github.com/JackobPunch/PowerElectronics/blob/main/Simulink/OnePhaseInverters/PrzebiegiModel3_2.jpg)
+![SimulinkSinglePhaseInverterWaveforms2](https://github.com/JackobPunch/PowerElectronicsSimulationTools/blob/main/Simulink/OnePhaseInverters/PrzebiegiModel3_2.jpg)
 
 - LTSpice model of single-phase inverter with its characteristic waveforms
 
-![LTSpiceOnePhaseInverter](https://github.com/JackobPunch/PowerElectronics/blob/main/LTSPice/FullbridgePush-PullConverter/model.png)
+![LTSpiceOnePhaseInverter](https://github.com/JackobPunch/PowerElectronicsSimulationTools/blob/main/LTSPice/FullbridgePush-PullConverter/model.png)
 
-![LTSpiceOnePhaseInverterWaveforms](https://github.com/JackobPunch/PowerElectronics/blob/main/LTSPice/FullbridgePush-PullConverter/Przebiegi.jpg)
+![LTSpiceOnePhaseInverterWaveforms](https://github.com/JackobPunch/PowerElectronicsSimulationTools/blob/main/LTSPice/FullbridgePush-PullConverter/Przebiegi.jpg)
