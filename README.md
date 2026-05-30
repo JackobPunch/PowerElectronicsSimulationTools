@@ -12,6 +12,8 @@ Six-thyristor bridge converting three-phase AC to DC. Analysis performed in MATL
 - Effect of input inductance L_in on: input current waveform, FFT harmonic spectrum, average U_dc
 - Effect of network equivalent reactance on input voltage distortion
 
+![Three-phase thyristor bridge model](https://github.com/JackobPunch/PowerElectronicsSimulationTools/blob/main/Simulink/ThreePhaseInverter/image.jpg)
+
 ---
 
 ### 2. Single-Phase Inverters
@@ -20,6 +22,9 @@ Six-thyristor bridge converting three-phase AC to DC. Analysis performed in MATL
 Two inverter topologies simulated in MATLAB Simulink:
 - **Half-bridge inverter** — switching signals, dead time analysis, output voltage and current waveforms under varying load resistance
 - **Full-bridge inverter with bipolar sinusoidal PWM** — modulation depth coefficient m_a effect on output RMS voltage, dead time effect on output waveform quality, output current ripple measurement and calculation
+
+![Single-phase inverter waveforms](https://github.com/JackobPunch/PowerElectronicsSimulationTools/blob/main/Simulink/OnePhaseInverters/PrzebiegiModel3.jpg)
+![Single-phase inverter waveforms 2](https://github.com/JackobPunch/PowerElectronicsSimulationTools/blob/main/Simulink/OnePhaseInverters/PrzebiegiModel3_2.jpg)
 
 ---
 
@@ -30,6 +35,9 @@ High-frequency switching power supply with full-bridge inverter and HF transform
 - **Topology:** 230V AC input → bridge rectifier → full-bridge MOSFET inverter (IRF6644) → HF transformer → output rectifier + LC filter
 - **PWM control:** UC3525 IC — duty cycle regulation, dead time, soft start
 - **Characteristics:** output voltage vs. t_on time (linear, 5–20 µs → 16.6–55.9 V), output voltage vs. load current (drooping characteristic under overload)
+
+![LTSpice model](https://github.com/JackobPunch/PowerElectronicsSimulationTools/blob/main/LTSPice/FullbridgePush-PullConverter/model.png)
+![Waveforms](https://github.com/JackobPunch/PowerElectronicsSimulationTools/blob/main/LTSPice/FullbridgePush-PullConverter/Przebiegi.jpg)
 
 ## Tools
 
