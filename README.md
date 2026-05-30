@@ -1,17 +1,45 @@
-# PowerElectronics
-## General description
-Several projects based on models made in Matlab Simulink and LTSPice software for the university subject entitled Power Electronics. 
-## Example images
-- Simulink model of single-phase inverter with its characteristic waveforms
+# Power Electronics Simulation Tools
 
-![SimulinkSinglePhaseInverter](https://github.com/JackobPunch/PowerElectronicsSimulationTools/blob/main/Simulink/OnePhaseInverters/model3.png)
+MATLAB/Simulink and LTSpice simulation projects from the *Power Electronics* laboratory course at AGH University of Science and Technology (Kraków), Electrical Engineering.
 
-![SimulinkSinglePhaseInverterWaveforms1](https://github.com/JackobPunch/PowerElectronicsSimulationTools/blob/main/Simulink/OnePhaseInverters/PrzebiegiModel3.jpg)
+## Projects
 
-![SimulinkSinglePhaseInverterWaveforms2](https://github.com/JackobPunch/PowerElectronicsSimulationTools/blob/main/Simulink/OnePhaseInverters/PrzebiegiModel3_2.jpg)
+### 1. Three-Phase Thyristor Bridge Rectifier
+`Simulink/ThreePhaseInverter/` — Jakub Cios, Maciej Duda (Nov 2023)
 
-- LTSpice model of single-phase inverter with its characteristic waveforms
+Six-thyristor bridge converting three-phase AC to DC. Analysis performed in MATLAB Simulink:
+- Effect of firing angle ALFA (0°–135°) on: phase current waveforms, active/reactive/apparent power (P/Q/S), power quality parameters (THD, cos φ), average DC output voltage U_dc
+- Effect of input inductance L_in on: input current waveform, FFT harmonic spectrum, average U_dc
+- Effect of network equivalent reactance on input voltage distortion
 
-![LTSpiceOnePhaseInverter](https://github.com/JackobPunch/PowerElectronicsSimulationTools/blob/main/LTSPice/FullbridgePush-PullConverter/model.png)
+---
 
-![LTSpiceOnePhaseInverterWaveforms](https://github.com/JackobPunch/PowerElectronicsSimulationTools/blob/main/LTSPice/FullbridgePush-PullConverter/Przebiegi.jpg)
+### 2. Single-Phase Inverters
+`Simulink/OnePhaseInverters/` — Jakub Cios (Dec 2023)
+
+Two inverter topologies simulated in MATLAB Simulink:
+- **Half-bridge inverter** — switching signals, dead time analysis, output voltage and current waveforms under varying load resistance
+- **Full-bridge inverter with bipolar sinusoidal PWM** — modulation depth coefficient m_a effect on output RMS voltage, dead time effect on output waveform quality, output current ripple measurement and calculation
+
+---
+
+### 3. Fullbridge Push-Pull Converter (Switching Power Supply)
+`LTSPice/FullbridgePush-PullConverter/` — Jakub Cios (Mar 2024)
+
+High-frequency switching power supply with full-bridge inverter and HF transformer simulated in LTSpice:
+- **Topology:** 230V AC input → bridge rectifier → full-bridge MOSFET inverter (IRF6644) → HF transformer → output rectifier + LC filter
+- **PWM control:** UC3525 IC — duty cycle regulation, dead time, soft start
+- **Characteristics:** output voltage vs. t_on time (linear, 5–20 µs → 16.6–55.9 V), output voltage vs. load current (drooping characteristic under overload)
+
+## Tools
+
+| Project | Tool |
+|---------|------|
+| Three-Phase Thyristor Bridge | MATLAB Simulink |
+| Single-Phase Inverters | MATLAB Simulink |
+| Fullbridge Push-Pull Converter | LTSpice |
+
+## Authors
+
+Jakub Cios — Electrical Engineering, AGH University of Science and Technology, Kraków
+Maciej Duda (Three-Phase Thyristor Bridge only)
